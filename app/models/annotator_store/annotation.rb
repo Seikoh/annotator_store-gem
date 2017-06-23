@@ -8,7 +8,7 @@ module AnnotatorStore
     accepts_nested_attributes_for :ranges
 
     # Validations
-    validates :version, presence: true
+    #validates :version, presence: true
     validates :text, presence: true
     validates :quote, presence: true
     validates :uri, presence: true
